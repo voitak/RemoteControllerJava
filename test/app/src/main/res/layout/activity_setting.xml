@@ -1,0 +1,278 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+
+    <Button
+        android:id="@+id/setting_cross"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/color_change"
+        android:tag="cross"
+        android:text="@string/cross"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_square"
+        android:tag="square"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/color_change"
+        android:text="@string/square"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/setting_triangle"
+        android:tag="triangle"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/color_change"
+        android:text="@string/triangle"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_circle"
+        android:tag="circle"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/color_change"
+        android:text="@string/circle"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_lb"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="145dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/color_change"
+        android:tag="lb"
+        android:text="@string/lb"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_rb"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/color_change"
+        android:tag="rb"
+        android:text="@string/rb"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_lt"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="215dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/color_change"
+        android:tag="lt"
+        android:text="@string/lt"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_rt"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/color_change"
+        android:tag="rt"
+        android:text="@string/rt"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_start"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="285dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/color_change"
+        android:tag="start"
+        android:text="@string/start"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_menu"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/color_change"
+        android:tag="menu"
+        android:text="@string/menu"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_up"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="355dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/color_change"
+        android:tag="up"
+        android:text="@string/up"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_right"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="125dp"
+        android:background="@drawable/color_change"
+        android:tag="right"
+        android:text="@string/right"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_down"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="125dp"
+        android:background="@drawable/color_change"
+        android:tag="down"
+        android:text="@string/down"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/setting_left"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="125dp"
+
+        android:background="@drawable/color_change"
+        android:tag="left"
+        android:text="@string/left"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/UP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="166dp"
+        android:onClick="onClickCheck"
+        android:text="UP"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/RIGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="205dp"
+        android:onClick="onClickCheck"
+        android:text="RIGHT"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/LEFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="245dp"
+        android:onClick="onClickCheck"
+        android:text="LEFT"
+        android:textSize="20sp" />
+
+
+    <CheckBox
+        android:id="@+id/DOWN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="285dp"
+        android:onClick="onClickCheck"
+        android:text="DOWN"
+        android:textSize="20sp" />
+
+    <include
+        android:id="@+id/includedLayout"
+        layout="@layout/layout_check"
+        android:layout_width="483dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="248dp"
+        android:layout_marginLeft="248dp"
+        android:layout_marginBottom="0dp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>
