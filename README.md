@@ -1,5 +1,8 @@
 # RemoteControllerJava
 
+This applications allow you to remotely control your computer with smartphone
+
+
 ![Без имени](https://user-images.githubusercontent.com/57760057/191706179-95b6902c-f3bb-4654-9bfa-bd998967da3e.png)
 
 ## Mobile app
